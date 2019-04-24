@@ -1,0 +1,8 @@
+.img1 {
+    position: absolute;
+    clip-path: polygon(0 0, 100% 0, 100% 72%, 51% 100%, 0 72%);
+}
+.img2 {
+    position: absolute;
+    clip-path: polygon(0 0, 100% 0, 100% 72%, 51% 100%, 0 72%);
+}
