@@ -32,11 +32,11 @@ p {
     font-size: 16px;
     position: absolute;
     text-align: center;
-    font-family: Arial, Helvetica, sans-serif;
+    font-family: 'Arial', Helvetica, sans-serif;
 }
 #buttons {
     font-family: 'Roboto', sans-serif;
-    background: transparent;
+    background: white;
     border-radius: 10px;
     text-decoration: none;
     text-transform: uppercase;
@@ -45,15 +45,19 @@ p {
 }
 .blue {
     border: 3px solid #6968cc;
+    color: #6968cc;
 }
 .yellow {
     border: 3px solid #ecea74;
+    color: #ecea74;
 }
 .pink {
     border: 3px solid #e799da;
+    color: #e799da;
 }
 .purple {
-    border: 3px solid #b26bd3
+    border: 3px solid #b26bd3;
+    color: #b26bd3;
 }
 .img4 {
     z-index: 2;
