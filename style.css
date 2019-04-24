@@ -10,10 +10,10 @@
     display: block;
     margin-left: 60px;
     width: 60%;
-    height: 90%;
+    height: 80%;
     position: absolute;
     top: 10%;
-    bottom:30%;
+    bottom: 10%;
     clip-path: polygon(0 0, 100% 0, 100% 72%, 51% 100%, 0 72%);
     z-index: 0;
 }
@@ -36,11 +36,15 @@ p {
 }
 #buttons {
     font-family: 'Roboto', sans-serif;
+    text-transform: uppercase;
+    width: 50px; 
+    height: 25px;
+}
+a {
     background: white;
     border-radius: 10px;
     text-decoration: none;
-    text-transform: uppercase;
-    font-size: 16px;
+    font-size: 24px;
     margin: 2px 2px;
 }
 .blue {
@@ -64,7 +68,7 @@ p {
     position: absolute;
     width: 6%;
     height: 10%;
-    top: 85%;
-    bottom: 15%;
+    top: 75%;
+    bottom: 25%;
     margin-left: 32.5%;
 }
