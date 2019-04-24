@@ -43,35 +43,42 @@ p {
 }
 a {
     background: transparent;
-    border-radius: 10px;
     text-decoration: none;
     font-size: 24px;
     margin: 2px 2px;
     padding: 2px;
-    border-spacing: 0;
+}
+a.blue {
+    color: #6968cc;
 }
 .blue {
     border: 3px solid #6968cc;
     border-radius: 10px;
-    color: #6968cc;
     padding: 1px;
+}
+a.yellow {
+    color: #ecea74;
 }
 .yellow {
     border: 3px solid #ecea74;
     border-radius: 10px;
-    color: #ecea74;
     padding: 1px;
+}
+a.pink {
+    color: #e799da;
+    font-size: 20px; 
 }
 .pink {
     border: 3px solid #e799da;
     border-radius: 10px;
-    color: #e799da;
     padding: 1px;
+}
+a.purple {
+    color: #b26bd3;
 }
 .purple {
     border: 3px solid #b26bd3;
     border-radius: 10px;
-    color: #b26bd3;
     padding: 1px;
 }
 .nav {
