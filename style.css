@@ -1,18 +1,33 @@
 .img1 {
-    position: fixed;
+    vertical-align: baseline;
+    position: absolute;
     clip-path: polygon(0 0, 100% 0, 100% 72%, 51% 100%, 0 72%);
     z-index: -1;
 }
 .img2 {
-    position: fixed;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    position: absolute;
     clip-path: polygon(0 0, 100% 0, 100% 72%, 51% 100%, 0 72%);
     z-index: 0;
 }
 .img3 {
-    position: fixed;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;
+    position: absolute;
+    top: 15%;
+    bottom: 85%;
     z-index: 1;
 }
 #badge {
+    position: absolute;
     text-align: center;
     font-family: Arial, Helvetica, sans-serif
+}
+p {
+    text-align: center;
 }
