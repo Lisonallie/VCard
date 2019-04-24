@@ -37,31 +37,42 @@ p {
 #buttons {
     font-family: 'Roboto', sans-serif;
     text-transform: uppercase;
-    width: 50px; 
+    width: 55px; 
     height: 25px;
+    text-align: center;
 }
 a {
-    background: white;
+    background: transparent;
     border-radius: 10px;
     text-decoration: none;
     font-size: 24px;
     margin: 2px 2px;
+    padding: 2px;
+    border-spacing: 0;
 }
 .blue {
     border: 3px solid #6968cc;
+    border-radius: 10px;
     color: #6968cc;
+    padding: 1px;
 }
 .yellow {
     border: 3px solid #ecea74;
+    border-radius: 10px;
     color: #ecea74;
+    padding: 1px;
 }
 .pink {
     border: 3px solid #e799da;
+    border-radius: 10px;
     color: #e799da;
+    padding: 1px;
 }
 .purple {
     border: 3px solid #b26bd3;
+    border-radius: 10px;
     color: #b26bd3;
+    padding: 1px;
 }
 .nav {
     z-index: 2;
