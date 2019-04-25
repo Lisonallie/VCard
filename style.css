@@ -50,52 +50,40 @@ a {
 }
 a.blue {
     color: #6968cc;
-}
-.blue {
     border: 3px solid #6968cc;
     border-radius: 10px;
     padding: 1px;
     margin-left: 57px;
     position: absolute;
     top: 62%;
-    bottom: 38%;
 }
 a.yellow {
     color: #ecea74;
-}
-.yellow {
     border: 3px solid #ecea74;
     border-radius: 10px;
     padding: 1px;
     margin-left: 130px;
     position: absolute;
     top: 70%;
-    bottom: 30%;
 }
 a.pink {
     color: #e799da;
     font-size: 20px; 
-}
-.pink {
     border: 3px solid #e799da;
     border-radius: 10px;
     padding: 1px;
     margin-left: 350px;
     position: absolute;
     top: 63%;
-    bottom: 37%;
 }
 a.purple {
     color: #b26bd3;
-}
-.purple {
     border: 3px solid #b26bd3;
     border-radius: 10px;
     padding: 1px;
     margin-left: 280px;
     position: absolute;
     top: 70%;
-    bottom: 30%;
 }
 .nav {
     z-index: 2;
